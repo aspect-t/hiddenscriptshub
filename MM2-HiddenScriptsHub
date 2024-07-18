@@ -290,13 +290,13 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-Tab:AddParagraph("My Discord server 🎩"," Join my discord server if you need help with bugs/errors in the script I made. You can also talk to and give feedback to improve the script more!")
-Tab:AddButton({
+Tab:AddParagraph("My Discord server 🎩"," Coming Soon!")
+--[[Tab:AddButton({
 	Name = "Copy Link To Discord Server 🎯",
 	Callback = function()
-    setclipboard("https://discord.com/invite/SASw2jSRkS")
+    setclipboard("")
       		print("button pressed")
   	end    
-})
+})]]
 Tab:AddParagraph("Read-[📕]","Please dont click the dupe buttons twice or multiple times this WILL cause errors❗")
 Tab:AddParagraph("Credits-⭐","All Coded And Made By HiddenScriptsHub-YT")
